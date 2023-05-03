@@ -1,0 +1,75 @@
+.contact {
+  background-color: #292930;
+  margin-top: 180px;
+}
+
+span {
+  color: #8a90a2;
+  padding-left: 15px;
+}
+
+.message,
+h1 {
+  padding-top: 60px;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  color: #f8f8f8;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+h1 img {
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+}
+.container form {
+  margin: 0 auto;
+  padding: 40px 0 120px 0;
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container form input,
+.container form textarea {
+  color: #8a90a2;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.container form textarea {
+  height: 200px;
+  resize: none;
+}
+
+.container form textarea:focus,
+.container form input:focus {
+  border-color: #ffd109 !important;
+  outline: none;
+}
+
+.submit {
+  font-size: 16px;
+  font-weight: 600;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 50px;
+  border: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.submit:hover {
+  border: none;
+  background-color: #6495ed;
+}

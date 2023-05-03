@@ -1,0 +1,58 @@
+.resume {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+.subtitle h1 {
+  color: black;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.subtitle span {
+  padding-left: 8px;
+}
+
+.resume_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 30px;
+}
+
+.resume_block {
+  width: 50%;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume_experience {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.resume_experience li {
+  padding-left: 25px;
+  position: relative;
+}
+
+.resume_experience li span {
+  position: absolute;
+  left: 0;
+  color: #ffd109;
+  font-size: 12px;
+  padding-left: 0;
+}
+.resume_experience p {
+  width: 100%;
+  color: #292930;
+  line-height: 26px;
+  max-width: 400px;
+}
