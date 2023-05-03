@@ -31,7 +31,7 @@ export function Navbar() {
 
       <div className="links">
         <ul className="nav nav-item justify-content-center ">
-          <Link to="/Home" className="nav-link ">
+          <Link to="/" className="nav-link ">
             Home
           </Link>
           <Link to="/Resume" className="nav-link">
