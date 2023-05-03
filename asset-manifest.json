@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.86e6ed23.css",
-    "main.js": "/Portfolio/static/js/main.8ccb2414.js",
-    "static/js/787.466d89ee.chunk.js": "/Portfolio/static/js/787.466d89ee.chunk.js",
-    "static/media/homepage.jpeg": "/Portfolio/static/media/homepage.fdbbac0ef8cececa6e17.jpeg",
-    "static/media/view_record.png": "/Portfolio/static/media/view_record.49a6f7339374a0c04f25.png",
-    "static/media/s_info_sys.png": "/Portfolio/static/media/s_info_sys.73c2c3ed25d880981363.png",
-    "static/media/todolist.png": "/Portfolio/static/media/todolist.78cb2000aa0bc00ff421.png",
-    "static/media/update_record.png": "/Portfolio/static/media/update_record.c390d6f222c6776a3842.png",
-    "static/media/add_stu_record.png": "/Portfolio/static/media/add_stu_record.181b12235b07dbbef7b8.png",
-    "static/media/calculator.png": "/Portfolio/static/media/calculator.4067f635f17450c09748.png",
-    "static/media/delete_record.png": "/Portfolio/static/media/delete_record.2d0a720fa71a0edc8f3e.png",
-    "static/media/rocket.png": "/Portfolio/static/media/rocket.027291b8cee7807a3cba.png",
-    "static/media/bg.jpg": "/Portfolio/static/media/bg.3246f33e239dc4f50073.jpg",
-    "index.html": "/Portfolio/index.html",
-    "main.86e6ed23.css.map": "/Portfolio/static/css/main.86e6ed23.css.map",
-    "main.8ccb2414.js.map": "/Portfolio/static/js/main.8ccb2414.js.map",
-    "787.466d89ee.chunk.js.map": "/Portfolio/static/js/787.466d89ee.chunk.js.map"
+    "main.css": "/Home/static/css/main.fe9ec45e.css",
+    "main.js": "/Home/static/js/main.29241c23.js",
+    "static/js/787.466d89ee.chunk.js": "/Home/static/js/787.466d89ee.chunk.js",
+    "static/media/homepage.jpeg": "/Home/static/media/homepage.fdbbac0ef8cececa6e17.jpeg",
+    "static/media/view_record.png": "/Home/static/media/view_record.49a6f7339374a0c04f25.png",
+    "static/media/s_info_sys.png": "/Home/static/media/s_info_sys.73c2c3ed25d880981363.png",
+    "static/media/todolist.png": "/Home/static/media/todolist.78cb2000aa0bc00ff421.png",
+    "static/media/update_record.png": "/Home/static/media/update_record.c390d6f222c6776a3842.png",
+    "static/media/add_stu_record.png": "/Home/static/media/add_stu_record.181b12235b07dbbef7b8.png",
+    "static/media/calculator.png": "/Home/static/media/calculator.4067f635f17450c09748.png",
+    "static/media/delete_record.png": "/Home/static/media/delete_record.2d0a720fa71a0edc8f3e.png",
+    "static/media/rocket.png": "/Home/static/media/rocket.027291b8cee7807a3cba.png",
+    "static/media/bg.jpg": "/Home/static/media/bg.3246f33e239dc4f50073.jpg",
+    "index.html": "/Home/index.html",
+    "main.fe9ec45e.css.map": "/Home/static/css/main.fe9ec45e.css.map",
+    "main.29241c23.js.map": "/Home/static/js/main.29241c23.js.map",
+    "787.466d89ee.chunk.js.map": "/Home/static/js/787.466d89ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86e6ed23.css",
-    "static/js/main.8ccb2414.js"
+    "static/css/main.fe9ec45e.css",
+    "static/js/main.29241c23.js"
   ]
 }
