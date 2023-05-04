@@ -65,9 +65,9 @@ export function TaskList() {
           longer needed.
         </div>
       </div>
-      <div className="tasks_container text-start col-sm-10 col-md-6 col-lg-5 mx-auto mt-5 pt-5">
+      <div className="tasks_container text-start col-sm-10 col-md-6 col-lg-5 mx-auto mt-5 py-5">
         <h2 className=" fw-semibold mb-4">Add your task here</h2>
-        <div className="tasks_wrapper ">
+        <div className="tasks_wrapper">
           <div className="d-flex">
             <input
               type="text"

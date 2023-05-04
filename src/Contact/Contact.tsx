@@ -1,10 +1,13 @@
 import handshake from "../assets/handshake.png";
 import "./contact.css";
 
-export function Contact() {
+interface StyleProps {
+  className?: string;
+}
+export function Contact({ className = "contact" }: StyleProps) {
   return (
-    <div className="contact">
-      <div className="container">
+    <div className={className}>
+      <div className="contact_container">
         <div className="message">
           <span
             className="bi bi-circle-fill"

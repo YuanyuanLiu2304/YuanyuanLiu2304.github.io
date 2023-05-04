@@ -1,6 +1,9 @@
 .contact {
-  background-color: #292930;
   margin-top: 180px;
+}
+
+.contact_container {
+  background-color: #292930;
 }
 
 span {
@@ -27,7 +30,7 @@ h1 img {
   height: 45px;
   margin-left: 20px;
 }
-.container form {
+form {
   margin: 0 auto;
   padding: 40px 0 120px 0;
   width: 100%;
@@ -37,8 +40,8 @@ h1 img {
   gap: 40px;
 }
 
-.container form input,
-.container form textarea {
+form input,
+form textarea {
   color: #8a90a2;
   background-color: transparent;
   border: 1px solid;
@@ -47,13 +50,13 @@ h1 img {
   padding: 20px;
 }
 
-.container form textarea {
+form textarea {
   height: 200px;
   resize: none;
 }
 
-.container form textarea:focus,
-.container form input:focus {
+form textarea:focus,
+form input:focus {
   border-color: #ffd109 !important;
   outline: none;
 }
@@ -69,6 +72,7 @@ h1 img {
   text-transform: capitalize;
   cursor: pointer;
 }
+
 .submit:hover {
   border: none;
   background-color: #6495ed;

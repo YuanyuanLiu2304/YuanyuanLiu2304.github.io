@@ -8,14 +8,8 @@
   margin-top: 180px;
 }
 
-.bg_img {
-  background-image: url("../assets/bg.jpg");
-  background-size: contain;
-  background-repeat: repeat;
-}
-
 .home_left {
-  padding: 8% 5%;
+  padding: 8% 5% 3%;
 }
 
 .home_left h3 {
@@ -29,10 +23,10 @@
 .home_left h3::after {
   position: absolute;
   content: "";
-  height: 3px;
-  width: 50px;
+  height: 4px;
+  width: 65px;
   bottom: 5px;
-  background-color: #7f00ff;
+  background-color: #ffd109;
 }
 
 .home_left h1 {
@@ -44,6 +38,7 @@
 }
 
 .author {
+  color: hsl(270, 100%, 75%);
   font-size: 3rem;
   font-weight: 700;
   font-style: italic;
@@ -103,16 +98,14 @@
   height: fit-content;
 }
 
-@media only screen and (max-width: 1200px) {
-  .bg_img {
-    background-size: cover;
-  }
+.skills_wrapper {
+  color: #ced4da;
+  padding: 120px 0 30px;
+  text-align: center;
+  background-color: #292930;
 }
 
 @media only screen and (max-width: 992px) {
-  .bg_img {
-    background-image: none;
-  }
   .home_left {
     background-image: url("../assets/bg.jpg");
     background-size: cover;
@@ -132,5 +125,9 @@
   .left_btn button,
   .social_contact span {
     font-size: 14px;
+  }
+
+  .home_right img {
+    display: none;
   }
 }
