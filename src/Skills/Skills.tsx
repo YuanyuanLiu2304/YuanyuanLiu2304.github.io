@@ -7,7 +7,7 @@ interface SkillProps {
   className?: string;
 }
 
-function Skills({ percent, skill, strokeWidth = 18, className }: SkillProps) {
+function Skills({ percent, skill, strokeWidth = 25, className }: SkillProps) {
   const [offset, setOffset] = useState(0);
   const [percentAnimated, setPercentAnimated] = useState(0);
 
@@ -45,9 +45,8 @@ function Skills({ percent, skill, strokeWidth = 18, className }: SkillProps) {
 
   return (
     <div className={className}>
-      <svg className="progress-circle" width="200" height="200">
+      <svg width="200" height="200">
         <circle
-          className="progress-circle-background"
           stroke="#ddd"
           strokeWidth={strokeWidth}
           fill="transparent"
@@ -57,7 +56,6 @@ function Skills({ percent, skill, strokeWidth = 18, className }: SkillProps) {
         />
         <circle
           id="progress-circle"
-          className="progress-circle-progress"
           stroke="#007bff"
           strokeWidth={strokeWidth}
           fill="transparent"
@@ -75,11 +73,9 @@ function Skills({ percent, skill, strokeWidth = 18, className }: SkillProps) {
           dy="0.3em"
           style={{ fill: "#f8f9fa" }}
         >
-          {percent}%
+          {skill}
         </text>
       </svg>
-
-      <h3 className="text-center mt-4">{skill}</h3>
     </div>
   );
 }

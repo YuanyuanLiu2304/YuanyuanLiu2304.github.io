@@ -26,7 +26,7 @@
   height: 4px;
   width: 65px;
   bottom: 5px;
-  background-color: #ffd109;
+  background-color: #3d535f;
 }
 
 .home_left h1 {
@@ -38,7 +38,7 @@
 }
 
 .author {
-  color: hsl(270, 100%, 75%);
+  color: #3d535f;
   font-size: 3rem;
   font-weight: 700;
   font-style: italic;
@@ -93,9 +93,17 @@
   color: #007aff;
 }
 
+.home_right {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
 .home_right img {
-  width: 100%;
-  height: fit-content;
+  object-fit: cover;
+  width: 70%;
+  height: 70%;
+  border-radius: 130% 75% 85% 75%;
 }
 
 .skills_wrapper {
@@ -111,6 +119,10 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .home_right img {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -125,9 +137,5 @@
   .left_btn button,
   .social_contact span {
     font-size: 14px;
-  }
-
-  .home_right img {
-    display: none;
   }
 }

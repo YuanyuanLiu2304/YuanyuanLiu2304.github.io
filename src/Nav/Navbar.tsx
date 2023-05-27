@@ -31,13 +31,13 @@ export function Navbar() {
 
       <div className="links">
         <ul className="nav nav-item justify-content-center ">
-          <Link to="/" className="nav-link ">
+          <Link to="/Home" className="nav-link ">
             Home
           </Link>
           <Link to="/Resume" className="nav-link">
             Resume
           </Link>
-          <Link to="/Projects" className="nav-link">
+          <Link to="/" className="nav-link">
             Projects
           </Link>
           <Link to="/Contact" className="nav-link">

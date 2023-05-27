@@ -1,7 +1,7 @@
 import "./home.css";
 import { Email, GitHub } from "@mui/icons-material";
 import { Link } from "react-router-dom";
-import homepage from "../assets/homepage.jpeg";
+import perfil from "../assets/perfil.jpeg";
 import { useEffect } from "react";
 import Typed from "typed.js";
 import Skills from "../Skills/Skills";
@@ -33,10 +33,9 @@ export function Home() {
             </h1>
             <p>
               I am dedicated and self-motivated to learn and expand my skills in
-              order to become a skilled developer who can create innovative and
-              effective solutions. I am excited to bring my knowledge and
-              enthusiasm to every project and collaborate with others to achieve
-              great results.
+              order to become a skilled developer. I am excited to bring my
+              knowledge and enthusiasm in collaborative efforts, working closely
+              with others to achieve remarkable outcomes.
             </p>
             <div className="left_btn">
               <Link to="/Projects" className="nav-link ">
@@ -67,7 +66,7 @@ export function Home() {
             </div>
           </div>
           <div className="col-md-12 col-lg-6 home_right">
-            <img src={homepage} alt="img"></img>
+            <img src={perfil} alt="img" />
           </div>
         </div>
         <div className="skills_wrapper ">
@@ -91,9 +90,68 @@ export function Home() {
             className="carousel slide"
             data-bs-touch="true"
             data-bs-ride="carousel"
-            data-bs-interval="5000"
+            data-bs-interval="2000"
           >
             <div className="carousel-inner">
+              {/* <div className="d-lg-none">
+                <div className="carousel-item active">
+                  <Skills
+                    percent={90}
+                    skill="HTML"
+                    className="m-4 d-inline-block"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <Skills
+                    percent={90}
+                    skill="CSS"
+                    className="m-4 d-inline-block"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <Skills
+                    percent={80}
+                    skill="JavaScript "
+                    className="m-4 d-inline-block"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <Skills
+                    percent={80}
+                    skill="Java"
+                    className="m-4 d-inline-block "
+                  />
+                </div>
+                <div className="carousel-item">
+                  <Skills
+                    percent={80}
+                    skill="SQL"
+                    className="m-4 d-inline-block "
+                  />
+                </div>
+                <div className="carousel-item">
+                  <Skills
+                    percent={70}
+                    skill="PHP"
+                    className="m-4 d-inline-block "
+                  />
+                </div>
+                <div className="carousel-item">
+                  <Skills
+                    percent={80}
+                    skill="Bootstrap"
+                    className="m-4 d-inline-block"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <Skills
+                    percent={70}
+                    skill="React"
+                    className="m-4 d-inline-block "
+                  />
+                </div>
+              </div> */}
+
               <div className="carousel-item active">
                 <Skills
                   percent={90}
@@ -132,17 +190,23 @@ export function Home() {
 
               <div className="carousel-item">
                 <Skills
-                  percent={80}
-                  skill="Bootstrap"
-                  className="m-4 d-inline-block"
-                />
-                <Skills
                   percent={70}
                   skill="React"
                   className="m-4 d-inline-block"
                 />
+                <Skills
+                  percent={50}
+                  skill="Angular"
+                  className="m-4 d-inline-block"
+                />
+                <Skills
+                  percent={80}
+                  skill="Bootstrap"
+                  className="m-4 d-inline-block"
+                />
               </div>
             </div>
+
             <button
               className="carousel-control-prev"
               type="button"

@@ -27,12 +27,14 @@ export function Resume() {
               <p className="mt-2 fw-medium">
                 Implemented quality control measures to ensure that all products
                 were properly inspected for damage and packaged correctly.
-                Collaborated closely with my team members to meet daily packing
-                quotas, which allowed us to showcase our strong teamwork skills
-                and foster a positive work environment. In addition, maintained
-                a clean and organized work area, utilizing strong organizational
-                skills and attention to detail to streamline the packing process
-                and increase overall efficiency.
+                <strong> Collaborated</strong> closely with my team members to
+                meet daily packing quotas, which allowed us to showcase our
+                <strong> strong teamwork</strong> skills and foster a positive
+                work environment. In addition, maintained a clean and organized
+                work area, utilizing strong{" "}
+                <strong> organizational skills</strong> and attention to detail
+                to streamline the packing process and increase overall
+                efficiency.
               </p>
             </li>
             <li>
@@ -46,9 +48,9 @@ export function Resume() {
                 Responsible for ensuring that only the highest quality fruits
                 were packed for shipment by sorting and grading them based on
                 their size and quality. Working collaboratively with other team
-                members in a fast-paced environment, I contributed to the
-                efficient and accurate packing of fresh fruit products to meet
-                daily production quotas.
+                members in a <strong>fast-paced</strong> environment, I
+                contributed to the efficient and accurate packing of fresh fruit
+                products to meet daily production quotas.
               </p>
             </li>
           </ul>
@@ -68,11 +70,12 @@ export function Resume() {
                 Gained a diverse skill set in the field of computer programming,
                 including
                 <em className="fw-bold"> Object-Oriented programming </em>
-                with design patterns, developing software applications, and
-                designing relational databases using
+                with <em className="fw-bold"> design patterns </em>, developing
+                software applications, and designing relational databases using
                 <em className="fw-bold"> SQL </em> programming with various
-                platforms. I also have experience in operating systems, web
-                programming with <em className="fw-bold"> HTML</em>,
+                platforms. I also have experience in various operating systems,
+                <em className="fw-bold"> Network </em>,web programming with
+                <em className="fw-bold"> HTML</em>,
                 <em className="fw-bold"> CSS</em>,
                 <em className="fw-bold"> JavaScript</em>, and
                 <em className="fw-bold"> PHP</em>, and mobile programming using

@@ -8,7 +8,11 @@ interface Task {
 
 export function TaskList() {
   let [newTask, setNewTask] = useState("");
-  let [tasks, setTasks] = useState<Task[]>([]);
+  let [tasks, setTasks] = useState<Task[]>([
+    { id: 1, name: "attend a yoga class", isEdit: false },
+    { id: 2, name: "pay bills for the month", isEdit: false },
+    { id: 3, name: "buy groceries for the week", isEdit: false },
+  ]);
 
   let task = {
     id: 0,
@@ -72,7 +76,7 @@ export function TaskList() {
             <input
               type="text"
               className="form-control-lg w-75"
-              placeholder="Add task"
+              placeholder="Add task..."
               value={newTask}
               onChange={inputTask}
             />
@@ -102,11 +106,12 @@ export function TaskList() {
                       </div>
                       <div className="col-7">
                         <label
-                          className="form-check-label fs-4 fw-medium"
+                          className="form-check-label fs-4 fw-medium w-100"
                           htmlFor={`task-${task.id}`}
                         >
                           {task.isEdit ? (
                             <input
+                              className="w-100"
                               value={task.name}
                               onChange={(
                                 event: ChangeEvent<HTMLInputElement>
