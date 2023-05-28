@@ -1,5 +1,6 @@
 .calculator_container {
   width: 50%;
+  max-width: 576px;
   margin: 150px auto;
 }
 
@@ -60,8 +61,8 @@ button {
   grid-column: span 2;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .calculator_container {
-    width: 75%;
+    width: 90%;
   }
 }

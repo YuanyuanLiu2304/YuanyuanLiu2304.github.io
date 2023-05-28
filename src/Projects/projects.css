@@ -50,11 +50,18 @@
   align-items: right;
 }
 
+.rocket_container {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+}
+
 .rocket_container img {
   position: absolute;
-  width: 350px;
-  right: 100px;
-  bottom: 30px;
+  max-width: 90%;
+  max-height: 90%;
+  right: 10%;
 }
 
 .projects_container {

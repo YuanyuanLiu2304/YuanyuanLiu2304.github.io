@@ -1,0 +1,95 @@
+.recipe_container {
+  color: #fff;
+  background-color: #2d2013;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.search_input {
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search_separator {
+  color: #fff;
+  padding: 0 40px;
+  font-weight: bold;
+}
+
+.random_recipe_button {
+  width: 320px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.meal_img img {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.ingredients_info {
+  padding-left: 8rem;
+}
+
+.ingredients_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.ingredient_item {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.ingredient_item_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.ingredient_image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.ingredient_name {
+  color: #d57d1f;
+  margin-top: 5px;
+}
+
+.ingredient_measure {
+  font-size: 14px;
+  color: #d57d1f;
+}
+
+.instruction-label {
+  color: #d57d1f;
+  padding-left: 0;
+  padding-right: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.instructions {
+  color: #f0f0f0;
+  margin: 3rem 0;
+}

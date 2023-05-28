@@ -5,6 +5,7 @@ import rocket from "../assets/rocket.png";
 import todolist from "../assets/todolist.png";
 import calculator from "../assets/calculator.png";
 import s_info_sys from "../assets/s_info_sys.png";
+import recipt from "../assets/recipe.png";
 import shape from "../assets/shape.png";
 
 export function Projects() {
@@ -36,6 +37,7 @@ export function Project() {
   const [stuInfoSys, setStuInfoSys] = useState(0);
   const [calcScale, setCalcScale] = useState(0);
   const [todoListScale, setToDoListScale] = useState(0);
+  const [userGenerator, setUserGenerator] = useState(0);
   return (
     <div className="projects_container">
       <div className="projects_wrapper">
@@ -50,32 +52,31 @@ export function Project() {
           </h1>
         </div>
         <div className="projects_cards">
-          {/* To Do List start here */}
+          {/* Recipe start here*/}
           <div
             className="projects_card"
             onMouseOver={() => {
-              setToDoListScale(1);
+              setUserGenerator(1);
             }}
             onMouseLeave={() => {
-              setToDoListScale(0);
+              setUserGenerator(0);
             }}
           >
             <div
               className="projects_img"
-              style={{ backgroundColor: "#ffd109" }}
+              style={{ backgroundColor: "#82cefd" }}
             >
-              <img src={todolist} alt="Basic Calculator" />
+              <img src={recipt} alt="Recipt" />
             </div>
-
             <div
               className="projects_hover"
-              style={{ transform: `scale(${todoListScale})` }}
+              style={{ transform: `scale(${userGenerator})` }}
             >
               <p>Application</p>
-              <h3>To Do List</h3>
-              <p> REACT BOOTSTRAP </p>
+              <h3>Recipe Finder</h3>
+              <p>React JavaScript TheMealDB API </p>
               <button>
-                <Link to="/Projects/TaskList">View Details</Link>
+                <Link to="/Projects/RecipeFinder">View Details</Link>
               </button>
             </div>
           </div>
@@ -101,11 +102,41 @@ export function Project() {
               className="projects_hover"
               style={{ transform: `scale(${calcScale})` }}
             >
-              <p>Web Application</p>
+              <p>Application</p>
               <h3>Basic Calculator</h3>
-              <p> REACT TYPESCRIPT </p>
+              <p> React TypeScript </p>
               <button>
                 <Link to="/Projects/Calculator">View Details</Link>
+              </button>
+            </div>
+          </div>
+
+          {/* To Do List start here */}
+          <div
+            className="projects_card"
+            onMouseOver={() => {
+              setToDoListScale(1);
+            }}
+            onMouseLeave={() => {
+              setToDoListScale(0);
+            }}
+          >
+            <div
+              className="projects_img"
+              style={{ backgroundColor: "#ffd109" }}
+            >
+              <img src={todolist} alt="Basic Calculator" />
+            </div>
+
+            <div
+              className="projects_hover"
+              style={{ transform: `scale(${todoListScale})` }}
+            >
+              <p>Application</p>
+              <h3>To Do List</h3>
+              <p> React Bootstrap </p>
+              <button>
+                <Link to="/Projects/TaskList">View Details</Link>
               </button>
             </div>
           </div>
@@ -132,22 +163,10 @@ export function Project() {
             >
               <p>Web Application</p>
               <h3>Student Information System</h3>
-              <p>HTML CSS PHP </p>
+              <p>HTML CSS PHP SQL</p>
               <button>
                 <Link to="/Projects/StudentInfoSysDemo">View Details</Link>
               </button>
-            </div>
-          </div>
-
-          {/* still working on it */}
-          <div className="projects_card">
-            <div
-              className="d-flex justify-content-center align-items-center projects_img "
-              style={{ backgroundColor: "#82cefd" }}
-            >
-              <h3 className="text-center fst-italic text-secondary ">
-                Work in Progress
-              </h3>
             </div>
           </div>
         </div>
