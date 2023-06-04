@@ -38,7 +38,7 @@ export function Home() {
               with others to achieve remarkable outcomes.
             </p>
             <div className="left_btn">
-              <Link to="/Projects" className="nav-link ">
+              <Link to="/" className="nav-link ">
                 <button>View My Work</button>
               </Link>
             </div>

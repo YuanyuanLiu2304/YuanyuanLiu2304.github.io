@@ -14,7 +14,7 @@ export function Navbar() {
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="logo">
-        <Link to="/Projects" className="nav-link ">
+        <Link to="/" className="nav-link ">
           Portfolio
         </Link>
       </div>

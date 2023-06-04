@@ -9,26 +9,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem;
+  padding: 4rem 0;
+  margin-top: 3rem;
 }
 
 .search_input {
-  width: 350px;
+  width: 100%;
   height: 50px;
   padding: 10px;
+  font-size: 18px;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-right: 10px;
 }
 
 .search_separator {
+  display: flex;
   color: #fff;
-  padding: 0 40px;
+  font-size: 20px;
+  padding: 1.5rem 0;
   font-weight: bold;
+  align-items: center;
+  justify-content: center;
 }
 
 .random_recipe_button {
-  width: 320px;
+  width: 100%;
   background-color: #007bff;
   border: none;
   border-radius: 10px;

@@ -53,22 +53,28 @@ export function RecipeFinder() {
       <div className="recipe_container">
         <div className="container">
           <h1>Welcome to Recipe Finder</h1>
-          <div className="search_bar">
-            <input
-              type="search"
-              placeholder="type the recipe you want to search..."
-              onChange={handleSearchInputChange}
-              className="search_input"
-            />
-            <span className="search_separator">OR</span>
-            <button
-              onClick={handleRandomRecipeClick}
-              className="random_recipe_button"
-            >
-              Generate Random Recipe
-            </button>
-          </div>
 
+          <div className="search_bar row">
+            <div className="col-md-12 col-lg-5 d-flex align-items-center justify-content-center">
+              <input
+                type="search"
+                placeholder="type the recipe you want to search..."
+                onChange={handleSearchInputChange}
+                className="search_input"
+              />
+            </div>
+            <div className="col-md-12 col-lg-2">
+              <span className="search_separator">OR</span>
+            </div>
+            <div className="col-md-12 col-lg-5 d-flex align-items-center justify-content-center">
+              <button
+                onClick={handleRandomRecipeClick}
+                className="random_recipe_button"
+              >
+                Generate Random Recipe
+              </button>
+            </div>
+          </div>
           {meal ? (
             <div className="row">
               <div className="meal_img col-md-4">

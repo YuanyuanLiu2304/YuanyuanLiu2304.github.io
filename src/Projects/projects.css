@@ -3,13 +3,14 @@
   position: relative;
   justify-content: center;
   width: 100%;
-  height: 40vh;
+  height: 45vh;
   margin-top: 180px;
   background-color: #423ef3;
 }
 
 .portfolio_wrapper {
   display: flex;
+  position: relative;
   width: 100%;
   padding: 0 60px;
   align-items: center;
@@ -19,7 +20,7 @@
 .shape {
   position: absolute;
   left: 40px;
-  bottom: 10px;
+  bottom: 5px;
 }
 
 .portfolio h1 {
@@ -38,7 +39,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
-  max-width: 450px;
   margin-bottom: 40px;
 }
 
@@ -61,7 +61,7 @@
   position: absolute;
   max-width: 90%;
   max-height: 90%;
-  right: 10%;
+  right: 5%;
 }
 
 .projects_container {
