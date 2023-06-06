@@ -3,7 +3,7 @@
   position: relative;
   justify-content: center;
   width: 100%;
-  height: 45vh;
+  height: 500px;
   margin-top: 180px;
   background-color: #423ef3;
 }
@@ -52,16 +52,17 @@
 
 .rocket_container {
   display: flex;
+  position: relative;
   width: 100%;
+  height: 100%;
   justify-content: right;
   align-items: center;
 }
 
 .rocket_container img {
-  position: absolute;
   max-width: 90%;
   max-height: 90%;
-  right: 5%;
+  padding-right: 7%;
 }
 
 .projects_container {
@@ -153,10 +154,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .rocket_container img {
-    display: none;
-  }
-
   .projects_cards {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -164,6 +161,10 @@
 
 @media only screen and (max-width: 576px) {
   .shape {
+    display: none;
+  }
+
+  .rocket_container img {
     display: none;
   }
 

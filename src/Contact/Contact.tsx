@@ -5,6 +5,10 @@ interface StyleProps {
   className?: string;
 }
 export function Contact({ className = "contact" }: StyleProps) {
+  const handleSubmit = () => {
+    window.alert("Thank you for reaching out to me!");
+  };
+
   return (
     <div className={className}>
       <div className="contact_container">
@@ -19,7 +23,12 @@ export function Contact({ className = "contact" }: StyleProps) {
           Let's create something amazing together
           <img src={handshake} alt="handshake" />
         </h1>
-        <form>
+        <form
+          name="contactForm"
+          method="get"
+          action="https://yuanyuanliu2304.github.io"
+          onSubmit={handleSubmit}
+        >
           <input
             type="text"
             name="name"
