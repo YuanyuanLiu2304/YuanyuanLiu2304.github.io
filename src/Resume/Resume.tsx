@@ -70,7 +70,7 @@ export function Resume() {
                 Gained a diverse skill set in the field of computer programming,
                 including
                 <em className="fw-bold"> Object-Oriented programming </em>
-                with <em className="fw-bold"> design patterns </em>, developing
+                with <em className="fw-bold"> Design Patterns </em>, developing
                 software applications, and designing relational databases using
                 <em className="fw-bold"> SQL </em> programming with various
                 platforms. I also have experience in various operating systems,

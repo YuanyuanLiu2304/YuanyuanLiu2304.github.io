@@ -1,7 +1,7 @@
 import "./home.css";
 import { Email, GitHub } from "@mui/icons-material";
 import { Link } from "react-router-dom";
-import perfil from "../assets/perfil.jpg";
+import perfil from "../assets/perfil.jpeg";
 import { useEffect } from "react";
 import Typed from "typed.js";
 import Skills from "../Skills/Skills";
