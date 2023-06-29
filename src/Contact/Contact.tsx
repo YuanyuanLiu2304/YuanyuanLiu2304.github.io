@@ -26,7 +26,7 @@ export function Contact({ className = "contact" }: StyleProps) {
         <form
           name="contactForm"
           method="get"
-          action="https://yuanyuanliu2304.github.io"
+          action="https://yuanyuanliu2304.github.io/Contact"
           onSubmit={handleSubmit}
         >
           <input
