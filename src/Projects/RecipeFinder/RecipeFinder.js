@@ -39,14 +39,15 @@ export function RecipeFinder() {
       <div className="title_container bg-secondary ">
         <h1>Recipe Finder</h1>
         <p>
-          Application &nbsp; | &nbsp; JavaScrpt &nbsp; React &nbsp;TheMealDB API
+          Application &nbsp; | &nbsp; HTML &nbsp; CSS &nbsp; JavaScrpt &nbsp;
+          React &nbsp;TheMealDB API
         </p>
         <div className="alert alert-primary mt-5 fs-5">
           A user-friendly web application that helps you discover a variety of
-          delicious recipes. With its clean and responsive design, built using
-          React and Bootstrap, makes it easy to search for specific recipes or
-          generate random ones for inspiration. Explore a wide range of culinary
-          delights, with detailed instructions and captivating images.
+          delicious recipes. With its clean and responsive design, makes it easy
+          to search for specific recipes or generate random ones for
+          inspiration. Explore a wide range of culinary delights, with detailed
+          instructions and captivating images.
         </div>
       </div>
 

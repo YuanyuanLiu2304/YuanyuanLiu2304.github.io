@@ -38,7 +38,7 @@ export function Home() {
               with others to achieve remarkable outcomes.
             </p>
             <div className="left_btn">
-              <Link to="/" className="nav-link ">
+              <Link to="/Projects" className="nav-link ">
                 <button>View My Work</button>
               </Link>
             </div>
@@ -93,65 +93,6 @@ export function Home() {
             data-bs-interval="2000"
           >
             <div className="carousel-inner">
-              {/* <div className="d-lg-none">
-                <div className="carousel-item active">
-                  <Skills
-                    percent={90}
-                    skill="HTML"
-                    className="m-4 d-inline-block"
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Skills
-                    percent={90}
-                    skill="CSS"
-                    className="m-4 d-inline-block"
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Skills
-                    percent={80}
-                    skill="JavaScript "
-                    className="m-4 d-inline-block"
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Skills
-                    percent={80}
-                    skill="Java"
-                    className="m-4 d-inline-block "
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Skills
-                    percent={80}
-                    skill="SQL"
-                    className="m-4 d-inline-block "
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Skills
-                    percent={70}
-                    skill="PHP"
-                    className="m-4 d-inline-block "
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Skills
-                    percent={80}
-                    skill="Bootstrap"
-                    className="m-4 d-inline-block"
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Skills
-                    percent={70}
-                    skill="React"
-                    className="m-4 d-inline-block "
-                  />
-                </div>
-              </div> */}
-
               <div className="carousel-item active">
                 <Skills
                   percent={90}
@@ -172,11 +113,6 @@ export function Home() {
 
               <div className="carousel-item">
                 <Skills
-                  percent={85}
-                  skill="SQL"
-                  className="m-4 d-inline-block"
-                />
-                <Skills
                   percent={80}
                   skill="Java"
                   className="m-4 d-inline-block"
@@ -186,8 +122,30 @@ export function Home() {
                   skill="PHP"
                   className="m-4 d-inline-block"
                 />
-              </div>
 
+                <Skills
+                  percent={85}
+                  skill="SQL"
+                  className="m-4 d-inline-block"
+                />
+              </div>
+              <div className="carousel-item">
+                <Skills
+                  percent={70}
+                  skill="Maven"
+                  className="m-4 d-inline-block"
+                />
+                <Skills
+                  percent={50}
+                  skill="SpringMVC"
+                  className="m-4 d-inline-block"
+                />
+                <Skills
+                  percent={80}
+                  skill="MyBatis"
+                  className="m-4 d-inline-block"
+                />
+              </div>
               <div className="carousel-item">
                 <Skills
                   percent={70}

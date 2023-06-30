@@ -24,34 +24,50 @@ export function Resume() {
               <span className="bi bi-circle-fill"></span>
               <h3 className="fs-5 fw-bold">Warehouse Packer</h3>
               <small>Mar 2022 - June 2022 | Synnex Pty Ltd</small>
-              <p className="mt-2 fw-medium">
-                Implemented quality control measures to ensure that all products
-                were properly inspected for damage and packaged correctly.
-                <strong> Collaborated</strong> closely with my team members to
-                meet daily packing quotas, which allowed us to showcase our
-                <strong> strong teamwork</strong> skills and foster a positive
-                work environment. In addition, maintained a clean and organized
-                work area, utilizing strong{" "}
-                <strong> organizational skills</strong> and attention to detail
-                to streamline the packing process and increase overall
-                efficiency.
-              </p>
+              <ul className="experience_context mt-2 ps-3 fw-medium">
+                <li>
+                  Increased customer loyalty by 80% through meticulous
+                  implementation of quality control measures, ensuring{" "}
+                  <strong>attention to detail</strong> and enhancing the overall
+                  customer experience.
+                </li>
+                <li>
+                  Contributed to a positive work environment and demonstrated
+                  strong <strong>teamwork</strong> skills by collaborating with
+                  team members to consistently meet daily packing quotas.
+                </li>
+                <li>
+                  Enhanced overall efficiency by streamlining the packing
+                  process through meticulous organization and maintenance of a
+                  clean work area, showcasing exceptional{" "}
+                  <strong>organizational</strong> skills.
+                </li>
+              </ul>
             </li>
             <li>
               <span className="bi bi-circle-fill"></span>
-              <h3 className="fs-5 fw-bold">Fruit Packer</h3>
-              <small>
-                Nov 2021 - Mar 2022, Nov 2020 - May 2021 | Flavorite Hydroponic
-                Tomatoes Pty Ltd
-              </small>
-              <p className="mt-2 fw-medium">
-                Responsible for ensuring that only the highest quality fruits
-                were packed for shipment by sorting and grading them based on
-                their size and quality. Working collaboratively with other team
-                members in a <strong>fast-paced</strong> environment, I
-                contributed to the efficient and accurate packing of fresh fruit
-                products to meet daily production quotas.
-              </p>
+              <h3 className="fs-5 fw-bold">All-Rounder</h3>
+              <small>Feb 2020 - May 2020 | Boddington Hotel</small>
+              <ul className="experience_context mt-2 ps-3 fw-medium">
+                <li>
+                  Demonstrated <strong>adaptability</strong> skill by
+                  transitioning between different departments, including front
+                  desk, food and beverage, and housekeeping to ensure smooth
+                  operations and meet guest needs.
+                </li>
+                <li>
+                  Exhibited <strong>multitasking</strong> capabilities by
+                  managing guest check-ins and check-outs, promptly addressing
+                  inquiries, resolving issues, and coordinating room
+                  assignments.
+                </li>
+                <li>
+                  Effectively managed time and{" "}
+                  <strong>prioritized tasks</strong> to ensure efficient
+                  workflow and timely delivery of services, resulting in
+                  positive feedback and satisfaction from guests.
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -66,28 +82,38 @@ export function Resume() {
               <span className="bi bi-circle-fill"></span>
               <h3 className="fs-5 fw-bold">Diploma in Computer Programming</h3>
               <small>Sep 2022 - present | Algonquin College</small>
-              <p className="mt-2 fw-medium">
-                Gained a diverse skill set in the field of computer programming,
-                including
-                <em className="fw-bold"> Object-Oriented programming </em>
-                with <em className="fw-bold"> Design Patterns </em>, developing
-                software applications, and designing relational databases using
-                <em className="fw-bold"> SQL </em> programming with various
-                platforms. I also have experience in various operating systems,
-                <em className="fw-bold"> Network </em>,web programming with
-                <em className="fw-bold"> HTML</em>,
-                <em className="fw-bold"> CSS</em>,
-                <em className="fw-bold"> JavaScript</em>, and
-                <em className="fw-bold"> PHP</em>, and mobile programming using
-                <em className="fw-bold"> Java</em>. Additionally, I possess
-                technical writing skills, specifically in creating software
-                requirements documents, design documents, and technical reports.
-              </p>
+              <ul className="education_context mt-2 ps-3 fw-medium">
+                <li>
+                  <strong>Programming</strong>: Java, XML, SQL, HTML/CSS,
+                  JavaScript, TypeScript, PHP, COBOL, Shell Scripting
+                </li>
+                <li>
+                  <strong>Databases</strong>: MySQL, Oracle, PostgreSQL,
+                  Microsoft SQL Server, Microsoft Access
+                </li>
+                <li>
+                  <strong>Network</strong>: HTTP, TCP, IP protocols, OSI model,
+                  socket programming, multi-threading programming
+                </li>
+                <li>
+                  <strong>Operating Systems</strong>: Windows, MacOS, Linux,
+                  Android
+                </li>
+                <li>
+                  <strong>Frameworks/Libraries</strong>: SpringMVC, MyBatis,
+                  JUnit, React, Angular, Bootstrap, Axios, JSON
+                </li>
+                <li>
+                  <strong>Software & Tools</strong>: Agile, Git, Maven, JDBC,
+                  UML, SpringToolSuite4, Eclipse, Android Studio, VS Code,
+                  Microsoft Office Suite
+                </li>
+              </ul>
             </li>
             <li>
               <span className="bi bi-circle-fill"></span>
               <h3 className="fs-5 fw-bold">Bachelor's Degree in Japanese</h3>
-              <small>Sep 2015 - Jun 2019 | Yangtze Normal University</small>
+              <small>2015 - 2019 | Yangtze Normal University</small>
               <p className="mt-2 fw-medium">
                 During my studies, I acquired a strong understanding of the
                 language and culture. Additionally, I gained knowledge in

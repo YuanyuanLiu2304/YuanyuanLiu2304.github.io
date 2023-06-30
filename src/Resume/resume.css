@@ -50,9 +50,14 @@
   font-size: 12px;
   padding-left: 0;
 }
+.experience_context li,
+.education_context li,
 .resume_experience p {
   width: 100%;
   color: #292930;
+  margin-top: 5px;
+  font-weight: 500;
+  padding-left: 0.5rem;
   line-height: 26px;
-  max-width: 400px;
+  max-width: 550px;
 }
