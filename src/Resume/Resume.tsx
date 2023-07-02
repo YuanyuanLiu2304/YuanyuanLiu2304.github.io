@@ -23,7 +23,7 @@ export function Resume() {
             <li>
               <span className="bi bi-circle-fill"></span>
               <h3 className="fs-5 fw-bold">Warehouse Packer</h3>
-              <small>Mar 2022 - June 2022 | Synnex Pty Ltd</small>
+              <small>Mar 2022 - June 2022 | Synnex Pty Ltd, Australia</small>
               <ul className="experience_context mt-2 ps-3 fw-medium">
                 <li>
                   Increased customer loyalty by 80% through meticulous
@@ -47,7 +47,7 @@ export function Resume() {
             <li>
               <span className="bi bi-circle-fill"></span>
               <h3 className="fs-5 fw-bold">All-Rounder</h3>
-              <small>Feb 2020 - May 2020 | Boddington Hotel</small>
+              <small>Feb 2020 - May 2020 | Boddington Hotel, Australia</small>
               <ul className="experience_context mt-2 ps-3 fw-medium">
                 <li>
                   Demonstrated <strong>adaptability</strong> skill by
@@ -113,7 +113,7 @@ export function Resume() {
             <li>
               <span className="bi bi-circle-fill"></span>
               <h3 className="fs-5 fw-bold">Bachelor's Degree in Japanese</h3>
-              <small>2015 - 2019 | Yangtze Normal University</small>
+              <small>2015 - 2019 | Yangtze Normal University, China</small>
               <p className="mt-2 fw-medium">
                 During my studies, I acquired a strong understanding of the
                 language and culture. Additionally, I gained knowledge in
