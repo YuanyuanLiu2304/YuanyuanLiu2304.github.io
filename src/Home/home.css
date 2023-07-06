@@ -96,12 +96,12 @@
 .home_right {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 
 .home_right img {
   object-fit: cover;
-  width: 70%;
+  width: 80%;
   height: 70%;
   border-radius: 130% 75% 85% 75%;
 }
