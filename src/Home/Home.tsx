@@ -137,7 +137,7 @@ export function Home() {
                 />
                 <Skills
                   percent={50}
-                  skill="SpringMVC"
+                  skill="Spring Boot"
                   className="m-4 d-inline-block"
                 />
                 <Skills

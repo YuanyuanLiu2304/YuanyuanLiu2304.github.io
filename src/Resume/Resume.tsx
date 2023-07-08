@@ -92,15 +92,15 @@ export function Resume() {
                   Microsoft SQL Server, Microsoft Access
                 </li>
                 <li>
-                  <strong>Network</strong>: HTTP, TCP, IP protocols, OSI model,
-                  socket programming, multi-threading programming
+                  <strong>Network</strong>: HTTP, TCP, UDP, IP, OSI model,
+                  socket and multi-threading programming
                 </li>
                 <li>
                   <strong>Operating Systems</strong>: Windows, MacOS, Linux,
                   Android
                 </li>
                 <li>
-                  <strong>Frameworks/Libraries</strong>: SpringMVC, MyBatis,
+                  <strong>Frameworks/Libraries</strong>: Spring Boot, MyBatis,
                   JUnit, React, Angular, Bootstrap, Axios, JSON
                 </li>
                 <li>
